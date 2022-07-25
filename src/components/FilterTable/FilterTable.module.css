@@ -1,0 +1,48 @@
+.wrapper table {
+    line-height: 1.4;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.cell{
+    padding: 18px 26px;
+    vertical-align: middle;
+    border: 1px solid #E3E6EC;
+}
+
+.wrapper th {
+    border: none;
+}
+
+.wrapper thead tr {
+    font-weight: 500;
+    text-align: left;
+    background: none;
+}
+
+.head {
+    background: #474955;
+    color: #ffffff;
+}
+
+.table tbody .row {
+    background: none;
+}
+
+.sortContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.headSortCell {
+    position: relative;
+    padding-right: 50px;
+}
+
+.arrowSort {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 21px;
+    height: 21px;
+}
