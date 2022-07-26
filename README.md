@@ -1,3 +1,3 @@
 ### Pet-project for table filtering
 
-demo: 
+demo: https://table-filter.netlify.app/

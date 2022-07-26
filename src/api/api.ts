@@ -8,7 +8,7 @@ class JsonPlaceholderApi {
     async getPosts(): Promise<Post[]> {
         try {
             const response = await fetch('https://jsonplaceholder.typicode.com/posts');
-            await sleep(1000);
+            await sleep(600);
             return response.json();
         } catch (e) {
             return [];
